@@ -1,0 +1,7 @@
+torch==2.9.0
+tiktoken
+numpy
+tqdm
+requests
+matplotlib
+pandas
