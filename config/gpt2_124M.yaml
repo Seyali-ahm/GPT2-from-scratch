@@ -6,7 +6,7 @@ model:
   n_layers: 12
   drop_rate: 0.1
   qkv_bias: True
-
+  
 training:
   batch_size: 2
   num_epochs: 10
@@ -15,7 +15,11 @@ training:
   eval_freq: 5
   eval_iter: 5
   seed: 123
-
+  
+generation:
+  max_new_tokens: 25
+  top_k: 50
+  temperature: 0
 data:
   file_path : "the-verdict.txt"
   url : "https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/the-verdict.txt"
