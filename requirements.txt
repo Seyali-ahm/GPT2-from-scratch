@@ -7,3 +7,4 @@ requests
 matplotlib
 pandas
 pyyaml
+tensorflow>=2.15.0
