@@ -1,2 +1,4 @@
 venv/
 gpt2/*
+__pycache__/
+*.pyc
