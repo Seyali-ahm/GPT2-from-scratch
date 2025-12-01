@@ -13,7 +13,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = tiktoken.get_encoding("gpt2")
 print(device)
 
-def main():
+def train_main():
     import time
     start_time = time.time()
 
@@ -36,4 +36,4 @@ def main():
     print(f"Training completed in {execution_time_minutes:.2f} minutes.")
 
 if __name__ == "__main__":
-    main()
+    train_main()
